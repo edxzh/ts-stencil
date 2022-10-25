@@ -1,0 +1,27 @@
+{
+  "compilerOptions": {
+    "allowJs": true,
+    "alwaysStrict": true,
+    "module": "ESNext",
+    "target": "es2017",
+    "noImplicitAny": true,
+    "noImplicitReturns": true,
+    "noFallthroughCasesInSwitch": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "outDir": "out",
+    "rootDirs": ["src", "test"],
+    "typeRoots": ["node_modules/@types", "typings-custom"],
+    "skipLibCheck": true,
+    "strict": true,
+    "sourceMap": true,
+    "esModuleInterop": true,
+    "moduleResolution": "node"
+  },
+  "ts-node": {
+    "compilerOptions": {
+      "module": "CommonJS"
+    }
+  },
+  "exclude": ["coverage", "node_modules", "out"]
+}
